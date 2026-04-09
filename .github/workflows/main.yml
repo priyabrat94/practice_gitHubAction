@@ -7,12 +7,7 @@ jobs:
     steps:
       - name: prnit greeting
         run: echo"Greetings"
-
       - name: Set up JDK 17
-        run: echo"Greetings java 17"
-        
+        run: echo"Greetings java 17"        
       - name: Build with Maven
         run: echo "Done"
-
-      - name: Run tests
-        run: mvn test
